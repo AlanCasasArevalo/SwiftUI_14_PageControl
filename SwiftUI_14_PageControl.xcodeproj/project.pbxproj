@@ -13,6 +13,7 @@
 		518E51412500DBDE0023D77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E51402500DBDE0023D77C /* Assets.xcassets */; };
 		518E51442500DBDE0023D77C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E51432500DBDE0023D77C /* Preview Assets.xcassets */; };
 		518E51472500DBDE0023D77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E51452500DBDE0023D77C /* LaunchScreen.storyboard */; };
+		518E514F2500DE640023D77C /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E514E2500DE640023D77C /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		518E51432500DBDE0023D77C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		518E51462500DBDE0023D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518E51482500DBDE0023D77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518E514E2500DE640023D77C /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				518E513A2500DBDC0023D77C /* AppDelegate.swift */,
 				518E513C2500DBDC0023D77C /* SceneDelegate.swift */,
 				518E513E2500DBDC0023D77C /* ContentView.swift */,
+				518E514E2500DE640023D77C /* PageControl.swift */,
 				518E51402500DBDE0023D77C /* Assets.xcassets */,
 				518E51452500DBDE0023D77C /* LaunchScreen.storyboard */,
 				518E51482500DBDE0023D77C /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				518E513B2500DBDC0023D77C /* AppDelegate.swift in Sources */,
 				518E513D2500DBDC0023D77C /* SceneDelegate.swift in Sources */,
+				518E514F2500DE640023D77C /* PageControl.swift in Sources */,
 				518E513F2500DBDC0023D77C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
