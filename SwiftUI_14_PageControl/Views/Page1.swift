@@ -13,8 +13,6 @@ struct Page1: View {
                 .font(.system(.largeTitle, design: .rounded))
                 .frame(width: 100, height: 100)
         }
-        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        .background(Color(.black))
     }
 }
 
