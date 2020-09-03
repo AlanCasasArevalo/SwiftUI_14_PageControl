@@ -14,6 +14,10 @@
 		518E51442500DBDE0023D77C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E51432500DBDE0023D77C /* Preview Assets.xcassets */; };
 		518E51472500DBDE0023D77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E51452500DBDE0023D77C /* LaunchScreen.storyboard */; };
 		518E514F2500DE640023D77C /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E514E2500DE640023D77C /* PageControl.swift */; };
+		518E51522500DF7C0023D77C /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51512500DF7C0023D77C /* Page1.swift */; };
+		518E51542500DF830023D77C /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51532500DF830023D77C /* Page2.swift */; };
+		518E51562500DF890023D77C /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51552500DF890023D77C /* Page3.swift */; };
+		518E51582500E0B20023D77C /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51572500E0B20023D77C /* MainPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		518E51462500DBDE0023D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518E51482500DBDE0023D77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518E514E2500DE640023D77C /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		518E51512500DF7C0023D77C /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		518E51532500DF830023D77C /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		518E51552500DF890023D77C /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
+		518E51572500E0B20023D77C /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 				518E513C2500DBDC0023D77C /* SceneDelegate.swift */,
 				518E513E2500DBDC0023D77C /* ContentView.swift */,
 				518E514E2500DE640023D77C /* PageControl.swift */,
+				518E51502500DF6C0023D77C /* Views */,
 				518E51402500DBDE0023D77C /* Assets.xcassets */,
 				518E51452500DBDE0023D77C /* LaunchScreen.storyboard */,
 				518E51482500DBDE0023D77C /* Info.plist */,
@@ -76,6 +85,17 @@
 				518E51432500DBDE0023D77C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		518E51502500DF6C0023D77C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				518E51512500DF7C0023D77C /* Page1.swift */,
+				518E51532500DF830023D77C /* Page2.swift */,
+				518E51552500DF890023D77C /* Page3.swift */,
+				518E51572500E0B20023D77C /* MainPage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +172,11 @@
 				518E513B2500DBDC0023D77C /* AppDelegate.swift in Sources */,
 				518E513D2500DBDC0023D77C /* SceneDelegate.swift in Sources */,
 				518E514F2500DE640023D77C /* PageControl.swift in Sources */,
+				518E51582500E0B20023D77C /* MainPage.swift in Sources */,
+				518E51562500DF890023D77C /* Page3.swift in Sources */,
+				518E51522500DF7C0023D77C /* Page1.swift in Sources */,
 				518E513F2500DBDC0023D77C /* ContentView.swift in Sources */,
+				518E51542500DF830023D77C /* Page2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
