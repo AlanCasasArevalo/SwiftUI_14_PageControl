@@ -18,7 +18,28 @@ struct ContentView: View {
                 }
             }
             
-            PageControl(currentPage: 0)
+            PageControl(currentPage: self.currentPage)
+            
+            HStack {
+                Button(action: {
+                    if self.currentPage != 0 {
+                        self.currentPage -= 1
+                    }
+                }) {
+                    Image(systemName: "chevron.left.circle.fill")
+                        .foregroundColor(.blue)
+                        .font(.title)
+                }
+                Button(action: {
+                    if self.currentPage < 2 {
+                        self.currentPage += 1
+                    }
+                }) {
+                    Image(systemName: "chevron.right.circle.fill")
+                        .foregroundColor(.blue)
+                        .font(.title)
+                }
+            }
         }
     }
 }

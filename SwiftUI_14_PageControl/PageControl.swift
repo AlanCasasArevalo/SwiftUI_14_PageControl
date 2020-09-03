@@ -5,7 +5,6 @@ struct PageControl: UIViewRepresentable {
     
     var currentPage = 0
     
-    
     func makeUIView(context: Context) -> UIPageControl {
         let pageControl = UIPageControl()
         pageControl.currentPageIndicatorTintColor = .blue
