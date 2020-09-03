@@ -3,7 +3,7 @@ import SwiftUI
 
 struct SwipeGesture: UIViewRepresentable {
     
-    var currentPage = 0
+    @Binding var currentPage: Int
     
     func makeCoordinator() -> Coordinator {
         return SwipeGesture.Coordinator(connection: self)
@@ -35,11 +35,15 @@ struct SwipeGesture: UIViewRepresentable {
         }
         
         @objc func swipeToLeft () {
-            print("Hacia la izquierda")
+            if self.connection.currentPage < 2 {
+                self.connection.currentPage += 1
+            }
         }
         
-        @objc func swipeToRight () {
-            print("Hacia la derecha")
+        @objc func swipeToRight () {            
+            if self.connection.currentPage != 0 {
+                self.connection.currentPage -= 1
+            }
         }
     }
     

@@ -14,7 +14,7 @@ struct ContentView: View {
                 VStack {
                     
                     ZStack {
-                        SwipeGesture()
+                        SwipeGesture(currentPage: self.$currentPage)
                         if self.currentPage == 0 {
                             Page1()
                         } else if self.currentPage == 1 {
